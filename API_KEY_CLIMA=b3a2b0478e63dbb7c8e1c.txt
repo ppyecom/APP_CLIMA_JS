@@ -1,0 +1,14 @@
+API_KEY_CLIMA=b3a2b0478e63dbb7c8e1c6f25ad43e62
+
+#FONT AWESOME
+
+<script src="https://kit.fontawesome.com/f55660595b.js" crossorigin="anonymous"></script>
+
+#FONT APIGOOGLE
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+
+#API URL
+
+https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${APIKey}
