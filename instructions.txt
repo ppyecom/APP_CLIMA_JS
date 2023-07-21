@@ -1,4 +1,4 @@
-API_KEY_CLIMA=b3a2b0478e63dbb7c8e1c6f25ad43e62
+API_KEY_CLIMA=(sacar de openweathermap)
 
 #FONT AWESOME
 
