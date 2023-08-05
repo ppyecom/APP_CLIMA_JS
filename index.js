@@ -14,7 +14,7 @@ function initMap() {
 }
 
 search.addEventListener('click', async () => {
-  const APIKey = '(sacar de openweathermap)';
+  const APIKey = 'b3a2b0478e63dbb7c8e1c6f25ad43e62';
   const city = document.querySelector('.search-box input').value;
   const API_URL = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${APIKey}`;
 
