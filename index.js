@@ -6,9 +6,9 @@ const error404 = document.querySelector('.not-found');
 const container_2 = document.querySelector('.container-2');
 let map;
 
-function initMap() {
+function initMap(latitud, longitud) {
   map = new google.maps.Map(document.getElementById('map'), {
-    center: { lat: -34.397, lng: 150.644 },
+    center: { lat: latitud, lng: longitud },
     zoom: 8,
   });
 }
@@ -80,6 +80,9 @@ search.addEventListener('click', async () => {
     weatherDetails.classList.add('fadeIn');
     container.style.height = '590px';
     container_2.style.height = '590px';
+
+    initMap(json.coord.lat, json.coord.lon);
+
   } catch (error) {
     console.error('Error:', error);
   }
